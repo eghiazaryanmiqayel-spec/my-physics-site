@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics for Students</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1E90FF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #1E90FF;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Physics for Students</h1>
+        <p>Theory, exercises, and learning materials for school</p>
+    </header>
+
+    <nav>
+        <a href="#mechanics">Mechanics</a>
+        <a href="#optics">Optics</a>
+        <a href="#thermodynamics">Thermodynamics</a>
+        <a href="#electricity">Electricity</a>
+    </nav>
+
+    <main>
+        <section id="mechanics">
+            <h2>Mechanics</h2>
+            <p>Newton's laws, motion of bodies, forces, and energy.</p>
+            <ul>
+                <li>Kinematics</li>
+                <li>Dynamics</li>
+                <li>Conservation laws</li>
+            </ul>
+        </section>
+
+        <section id="optics">
+            <h2>Optics</h2>
+            <p>Light, lenses, reflection and refraction, interference and diffraction.</p>
+        </section>
+
+        <section id="thermodynamics">
+            <h2>Thermodynamics</h2>
+            <p>Temperature, heat, laws of thermodynamics, ideal gas.</p>
+        </section>
+
+        <section id="electricity">
+            <h2>Electricity</h2>
+            <p>Electric circuits, Ohm's law, voltage, current, resistance.</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Physics for Students
+    </footer>
+</body>
+</html>
